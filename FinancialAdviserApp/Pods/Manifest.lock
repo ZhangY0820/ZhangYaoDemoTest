@@ -1,0 +1,22 @@
+PODS:
+  - RxCocoa (3.3.0):
+    - RxSwift (~> 3.3)
+  - RxSwift (3.3.0)
+  - SnapKit (3.2.0)
+  - XLForm (3.3.0)
+
+DEPENDENCIES:
+  - RxCocoa (~> 3.3.0)
+  - RxSwift (~> 3.3.0)
+  - SnapKit (~> 3.2.0)
+  - XLForm (~> 3.3.0)
+
+SPEC CHECKSUMS:
+  RxCocoa: 74acedc2d964823b807e5de2e215e2c2bd2e5a19
+  RxSwift: 7d42e8bc91faa4c218292400646c482f3402774a
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  XLForm: d5c391dfc62865927b5bcab0a5a0dbfb3e02b0ec
+
+PODFILE CHECKSUM: 8563cfe9ee58634d8ac3a119a3be10bc4251263e
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,1138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F117EF31EE547BC00BD15F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117EF21EE547BC00BD15F6 /* AppDelegate.swift */; };
+		5F117EFA1EE547BC00BD15F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F117EF91EE547BC00BD15F6 /* Assets.xcassets */; };
+		5F117EFD1EE547BC00BD15F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F117EFB1EE547BC00BD15F6 /* LaunchScreen.storyboard */; };
+		5F117F081EE547BC00BD15F6 /* FinancialAdviserAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F071EE547BC00BD15F6 /* FinancialAdviserAppTests.swift */; };
+		5F117F131EE547BC00BD15F6 /* FinancialAdviserAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F121EE547BC00BD15F6 /* FinancialAdviserAppUITests.swift */; };
+		5F117F3D1EE54A5D00BD15F6 /* PXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F3C1EE54A5D00BD15F6 /* PXBaseViewController.swift */; };
+		5F117F3F1EE54AE700BD15F6 /* PXFoundMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F3E1EE54AE700BD15F6 /* PXFoundMainViewController.swift */; };
+		5F117F411EE54B0600BD15F6 /* PXProductMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F401EE54B0600BD15F6 /* PXProductMainViewController.swift */; };
+		5F117F431EE54B2400BD15F6 /* PXStudioMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F421EE54B2400BD15F6 /* PXStudioMainViewController.swift */; };
+		5F117F451EE54B4800BD15F6 /* PXCustomerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F441EE54B4800BD15F6 /* PXCustomerMainViewController.swift */; };
+		5F117F471EE54BF000BD15F6 /* PXCollegeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F461EE54BF000BD15F6 /* PXCollegeMainViewController.swift */; };
+		5F117F5A1EE55BDA00BD15F6 /* PXLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F591EE55BDA00BD15F6 /* PXLoginViewController.swift */; };
+		5F117F5F1EE63EA000BD15F6 /* PXColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F5E1EE63EA000BD15F6 /* PXColorManager.swift */; };
+		5F117F611EE63ED400BD15F6 /* PXLabelAndTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F601EE63ED400BD15F6 /* PXLabelAndTextFieldView.swift */; };
+		5F117F631EE63F5800BD15F6 /* PXSizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F621EE63F5800BD15F6 /* PXSizeManager.swift */; };
+		5F117F651EE6419100BD15F6 /* PXApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F641EE6419100BD15F6 /* PXApi.swift */; };
+		5F117F6E1EE7A40F00BD15F6 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F6D1EE7A40F00BD15F6 /* CommonMethods.swift */; };
+		5F117F701EE7AE4C00BD15F6 /* PXRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F6F1EE7AE4B00BD15F6 /* PXRegisterViewController.swift */; };
+		5F117F721EE7AF6800BD15F6 /* PXForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F711EE7AF6800BD15F6 /* PXForgetPasswordViewController.swift */; };
+		5F117F741EE92B0600BD15F6 /* PXProtocolWebShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F731EE92B0600BD15F6 /* PXProtocolWebShowViewController.swift */; };
+		5F117F761EE93B8100BD15F6 /* PXRealNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F751EE93B8100BD15F6 /* PXRealNameViewController.swift */; };
+		5F117F781EE93D2A00BD15F6 /* PXRealNameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F117F771EE93D2A00BD15F6 /* PXRealNameResultViewController.swift */; };
+		5F3F243F1EF77B730090246E /* PXProductDetailAppointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F243E1EF77B730090246E /* PXProductDetailAppointViewController.swift */; };
+		5F3F24441EF7C1660090246E /* PXImageAndLabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F24431EF7C1660090246E /* PXImageAndLabelButton.swift */; };
+		5F4622801EF22B5700DC85A4 /* PXProductDetailAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F46227F1EF22B5700DC85A4 /* PXProductDetailAccountTableViewCell.swift */; };
+		5F4622821EF2784E00DC85A4 /* PXProductDetailVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4622811EF2784E00DC85A4 /* PXProductDetailVideoTableViewCell.swift */; };
+		5FA0D2DA1EF366D70063F426 /* PXProductDetailInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0D2D91EF366D70063F426 /* PXProductDetailInfoTableViewCell.swift */; };
+		5FA0D2DC1EF375FD0063F426 /* PXPDFTextShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0D2DB1EF375FD0063F426 /* PXPDFTextShowViewController.swift */; };
+		5FA0D2DE1EF37E7F0063F426 /* PXMarketCopyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0D2DD1EF37E7F0063F426 /* PXMarketCopyViewController.swift */; };
+		5FA804B21EF10A3F005F92D0 /* PXProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA804B11EF10A3F005F92D0 /* PXProductListTableViewCell.swift */; };
+		5FA804B41EF11659005F92D0 /* PXProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA804B31EF11659005F92D0 /* PXProductDetailViewController.swift */; };
+		5FC9D4E31EF8C380005A5292 /* PXCollegeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9D4E21EF8C380005A5292 /* PXCollegeListTableViewCell.swift */; };
+		5FC9D4E51EF8C81E005A5292 /* PXCollegeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9D4E41EF8C81E005A5292 /* PXCollegeDetailViewController.swift */; };
+		5FC9D4E71EF8FBAA005A5292 /* PXCollegeDetailLikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9D4E61EF8FBAA005A5292 /* PXCollegeDetailLikeTableViewCell.swift */; };
+		5FC9D4EA1EFA4B47005A5292 /* PXPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9D4E91EFA4B47005A5292 /* PXPlayer.m */; };
+		5FC9D4ED1EFA514C005A5292 /* UIView+PXExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9D4EC1EFA514C005A5292 /* UIView+PXExt.m */; };
+		5FC9D4F01EFA65C3005A5292 /* PXZYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9D4EF1EFA65C3005A5292 /* PXZYPlayer.m */; };
+		5FCECBBF1EEE306300F6D81B /* PXFoundInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCECBBE1EEE306300F6D81B /* PXFoundInfoTableViewCell.swift */; };
+		5FCECBC11EEE307D00F6D81B /* PXFoundResourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCECBC01EEE307D00F6D81B /* PXFoundResourceTableViewCell.swift */; };
+		5FF757191EEE40A100664C4D /* PXFoundDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF757181EEE40A100664C4D /* PXFoundDetailViewController.swift */; };
+		8C7F140E309450DD1F54A968 /* Pods_FinancialAdviserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF990F1D2D3ADDE6549AB76 /* Pods_FinancialAdviserApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F117F041EE547BC00BD15F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F117EE71EE547BC00BD15F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F117EEE1EE547BC00BD15F6;
+			remoteInfo = FinancialAdviserApp;
+		};
+		5F117F0F1EE547BC00BD15F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F117EE71EE547BC00BD15F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F117EEE1EE547BC00BD15F6;
+			remoteInfo = FinancialAdviserApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AF990F1D2D3ADDE6549AB76 /* Pods_FinancialAdviserApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinancialAdviserApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEFC6BEBBBA0BCF27615CB4 /* Pods-FinancialAdviserApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialAdviserApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinancialAdviserApp/Pods-FinancialAdviserApp.release.xcconfig"; sourceTree = "<group>"; };
+		5F117EEF1EE547BC00BD15F6 /* FinancialAdviserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialAdviserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F117EF21EE547BC00BD15F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F117EF91EE547BC00BD15F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F117EFC1EE547BC00BD15F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F117EFE1EE547BC00BD15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F117F031EE547BC00BD15F6 /* FinancialAdviserAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialAdviserAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F117F071EE547BC00BD15F6 /* FinancialAdviserAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAdviserAppTests.swift; sourceTree = "<group>"; };
+		5F117F091EE547BC00BD15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F117F0E1EE547BC00BD15F6 /* FinancialAdviserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialAdviserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F117F121EE547BC00BD15F6 /* FinancialAdviserAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAdviserAppUITests.swift; sourceTree = "<group>"; };
+		5F117F141EE547BC00BD15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F117F3C1EE54A5D00BD15F6 /* PXBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXBaseViewController.swift; sourceTree = "<group>"; };
+		5F117F3E1EE54AE700BD15F6 /* PXFoundMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXFoundMainViewController.swift; sourceTree = "<group>"; };
+		5F117F401EE54B0600BD15F6 /* PXProductMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductMainViewController.swift; sourceTree = "<group>"; };
+		5F117F421EE54B2400BD15F6 /* PXStudioMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXStudioMainViewController.swift; sourceTree = "<group>"; };
+		5F117F441EE54B4800BD15F6 /* PXCustomerMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomerMainViewController.swift; sourceTree = "<group>"; };
+		5F117F461EE54BF000BD15F6 /* PXCollegeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCollegeMainViewController.swift; sourceTree = "<group>"; };
+		5F117F591EE55BDA00BD15F6 /* PXLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXLoginViewController.swift; sourceTree = "<group>"; };
+		5F117F5E1EE63EA000BD15F6 /* PXColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXColorManager.swift; sourceTree = "<group>"; };
+		5F117F601EE63ED400BD15F6 /* PXLabelAndTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXLabelAndTextFieldView.swift; sourceTree = "<group>"; };
+		5F117F621EE63F5800BD15F6 /* PXSizeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXSizeManager.swift; sourceTree = "<group>"; };
+		5F117F641EE6419100BD15F6 /* PXApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXApi.swift; sourceTree = "<group>"; };
+		5F117F681EE648AC00BD15F6 /* ThreePartPCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreePartPCH.h; sourceTree = "<group>"; };
+		5F117F691EE64A4300BD15F6 /* FinancialAdviserApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinancialAdviserApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F117F6D1EE7A40F00BD15F6 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		5F117F6F1EE7AE4B00BD15F6 /* PXRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXRegisterViewController.swift; sourceTree = "<group>"; };
+		5F117F711EE7AF6800BD15F6 /* PXForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		5F117F731EE92B0600BD15F6 /* PXProtocolWebShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProtocolWebShowViewController.swift; sourceTree = "<group>"; };
+		5F117F751EE93B8100BD15F6 /* PXRealNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXRealNameViewController.swift; sourceTree = "<group>"; };
+		5F117F771EE93D2A00BD15F6 /* PXRealNameResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXRealNameResultViewController.swift; sourceTree = "<group>"; };
+		5F3F243E1EF77B730090246E /* PXProductDetailAppointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductDetailAppointViewController.swift; sourceTree = "<group>"; };
+		5F3F24431EF7C1660090246E /* PXImageAndLabelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXImageAndLabelButton.swift; sourceTree = "<group>"; };
+		5F46227F1EF22B5700DC85A4 /* PXProductDetailAccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductDetailAccountTableViewCell.swift; sourceTree = "<group>"; };
+		5F4622811EF2784E00DC85A4 /* PXProductDetailVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductDetailVideoTableViewCell.swift; sourceTree = "<group>"; };
+		5FA0D2D91EF366D70063F426 /* PXProductDetailInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductDetailInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5FA0D2DB1EF375FD0063F426 /* PXPDFTextShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXPDFTextShowViewController.swift; sourceTree = "<group>"; };
+		5FA0D2DD1EF37E7F0063F426 /* PXMarketCopyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXMarketCopyViewController.swift; sourceTree = "<group>"; };
+		5FA804B11EF10A3F005F92D0 /* PXProductListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductListTableViewCell.swift; sourceTree = "<group>"; };
+		5FA804B31EF11659005F92D0 /* PXProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXProductDetailViewController.swift; sourceTree = "<group>"; };
+		5FC9D4E21EF8C380005A5292 /* PXCollegeListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCollegeListTableViewCell.swift; sourceTree = "<group>"; };
+		5FC9D4E41EF8C81E005A5292 /* PXCollegeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCollegeDetailViewController.swift; sourceTree = "<group>"; };
+		5FC9D4E61EF8FBAA005A5292 /* PXCollegeDetailLikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCollegeDetailLikeTableViewCell.swift; sourceTree = "<group>"; };
+		5FC9D4E81EFA4B47005A5292 /* PXPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXPlayer.h; sourceTree = "<group>"; };
+		5FC9D4E91EFA4B47005A5292 /* PXPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXPlayer.m; sourceTree = "<group>"; };
+		5FC9D4EB1EFA514C005A5292 /* UIView+PXExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PXExt.h"; sourceTree = "<group>"; };
+		5FC9D4EC1EFA514C005A5292 /* UIView+PXExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PXExt.m"; sourceTree = "<group>"; };
+		5FC9D4EE1EFA65C3005A5292 /* PXZYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXZYPlayer.h; sourceTree = "<group>"; };
+		5FC9D4EF1EFA65C3005A5292 /* PXZYPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXZYPlayer.m; sourceTree = "<group>"; };
+		5FCECBBE1EEE306300F6D81B /* PXFoundInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXFoundInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5FCECBC01EEE307D00F6D81B /* PXFoundResourceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXFoundResourceTableViewCell.swift; sourceTree = "<group>"; };
+		5FF757181EEE40A100664C4D /* PXFoundDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXFoundDetailViewController.swift; sourceTree = "<group>"; };
+		F9DAF412C5236F3D584E29D1 /* Pods-FinancialAdviserApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialAdviserApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinancialAdviserApp/Pods-FinancialAdviserApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F117EEC1EE547BC00BD15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F140E309450DD1F54A968 /* Pods_FinancialAdviserApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F117F001EE547BC00BD15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F117F0B1EE547BC00BD15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443E492641DB45A86F2E3DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AF990F1D2D3ADDE6549AB76 /* Pods_FinancialAdviserApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F117EE61EE547BC00BD15F6 = {
+			isa = PBXGroup;
+			children = (
+				5F117EF11EE547BC00BD15F6 /* FinancialAdviserApp */,
+				5F117F061EE547BC00BD15F6 /* FinancialAdviserAppTests */,
+				5F117F111EE547BC00BD15F6 /* FinancialAdviserAppUITests */,
+				5F117EF01EE547BC00BD15F6 /* Products */,
+				A632C60ED585FFF7C87CACDF /* Pods */,
+				443E492641DB45A86F2E3DB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F117EF01EE547BC00BD15F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F117EEF1EE547BC00BD15F6 /* FinancialAdviserApp.app */,
+				5F117F031EE547BC00BD15F6 /* FinancialAdviserAppTests.xctest */,
+				5F117F0E1EE547BC00BD15F6 /* FinancialAdviserAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F117EF11EE547BC00BD15F6 /* FinancialAdviserApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F117EF21EE547BC00BD15F6 /* AppDelegate.swift */,
+				5F117F201EE5495F00BD15F6 /* Tool */,
+				5F117F231EE5496A00BD15F6 /* UI */,
+				5F117EF91EE547BC00BD15F6 /* Assets.xcassets */,
+				5F117EFB1EE547BC00BD15F6 /* LaunchScreen.storyboard */,
+				5F117EFE1EE547BC00BD15F6 /* Info.plist */,
+			);
+			path = FinancialAdviserApp;
+			sourceTree = "<group>";
+		};
+		5F117F061EE547BC00BD15F6 /* FinancialAdviserAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F071EE547BC00BD15F6 /* FinancialAdviserAppTests.swift */,
+				5F117F091EE547BC00BD15F6 /* Info.plist */,
+			);
+			path = FinancialAdviserAppTests;
+			sourceTree = "<group>";
+		};
+		5F117F111EE547BC00BD15F6 /* FinancialAdviserAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F121EE547BC00BD15F6 /* FinancialAdviserAppUITests.swift */,
+				5F117F141EE547BC00BD15F6 /* Info.plist */,
+			);
+			path = FinancialAdviserAppUITests;
+			sourceTree = "<group>";
+		};
+		5F117F201EE5495F00BD15F6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5FF7571E1EEFB3C400664C4D /* OCFile */,
+				5F117F211EE5495F00BD15F6 /* Custom */,
+				5F117F221EE5495F00BD15F6 /* ThreePart */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5F117F211EE5495F00BD15F6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F5D1EE63EA000BD15F6 /* Manager */,
+				5F117F5B1EE6372F00BD15F6 /* CustomView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5F117F221EE5495F00BD15F6 /* ThreePart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThreePart;
+			sourceTree = "<group>";
+		};
+		5F117F231EE5496A00BD15F6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F241EE5496A00BD15F6 /* Base */,
+				5F117F4C1EE55B3400BD15F6 /* LoginAndRegister */,
+				5F117F2D1EE5496A00BD15F6 /* Found */,
+				5F117F311EE5496A00BD15F6 /* Product */,
+				5F117F351EE5496A00BD15F6 /* Studio */,
+				5F117F291EE5496A00BD15F6 /* Customer */,
+				5F117F251EE5496A00BD15F6 /* College */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5F117F241EE5496A00BD15F6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F391EE549EA00BD15F6 /* Model */,
+				5F117F3A1EE549EA00BD15F6 /* View */,
+				5F117F3B1EE549EA00BD15F6 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5F117F251EE5496A00BD15F6 /* College */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F271EE5496A00BD15F6 /* Model */,
+				5F117F281EE5496A00BD15F6 /* View */,
+				5F117F261EE5496A00BD15F6 /* Controller */,
+			);
+			path = College;
+			sourceTree = "<group>";
+		};
+		5F117F261EE5496A00BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F461EE54BF000BD15F6 /* PXCollegeMainViewController.swift */,
+				5FC9D4E41EF8C81E005A5292 /* PXCollegeDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F271EE5496A00BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F281EE5496A00BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FC9D4E21EF8C380005A5292 /* PXCollegeListTableViewCell.swift */,
+				5FC9D4E61EF8FBAA005A5292 /* PXCollegeDetailLikeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F291EE5496A00BD15F6 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F2B1EE5496A00BD15F6 /* Model */,
+				5F117F2C1EE5496A00BD15F6 /* View */,
+				5F117F2A1EE5496A00BD15F6 /* Controller */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		5F117F2A1EE5496A00BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F441EE54B4800BD15F6 /* PXCustomerMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F2B1EE5496A00BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F2C1EE5496A00BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F2D1EE5496A00BD15F6 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F2F1EE5496A00BD15F6 /* Model */,
+				5F117F301EE5496A00BD15F6 /* View */,
+				5F117F2E1EE5496A00BD15F6 /* Controller */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		5F117F2E1EE5496A00BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F3E1EE54AE700BD15F6 /* PXFoundMainViewController.swift */,
+				5FF757181EEE40A100664C4D /* PXFoundDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F2F1EE5496A00BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F301EE5496A00BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FCECBBE1EEE306300F6D81B /* PXFoundInfoTableViewCell.swift */,
+				5FCECBC01EEE307D00F6D81B /* PXFoundResourceTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F311EE5496A00BD15F6 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F331EE5496A00BD15F6 /* Model */,
+				5F117F341EE5496A00BD15F6 /* View */,
+				5F117F321EE5496A00BD15F6 /* Controller */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5F117F321EE5496A00BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F401EE54B0600BD15F6 /* PXProductMainViewController.swift */,
+				5FA804B31EF11659005F92D0 /* PXProductDetailViewController.swift */,
+				5FA0D2DB1EF375FD0063F426 /* PXPDFTextShowViewController.swift */,
+				5FA0D2DD1EF37E7F0063F426 /* PXMarketCopyViewController.swift */,
+				5F3F243E1EF77B730090246E /* PXProductDetailAppointViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F331EE5496A00BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F341EE5496A00BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FA804B11EF10A3F005F92D0 /* PXProductListTableViewCell.swift */,
+				5F46227F1EF22B5700DC85A4 /* PXProductDetailAccountTableViewCell.swift */,
+				5F4622811EF2784E00DC85A4 /* PXProductDetailVideoTableViewCell.swift */,
+				5FA0D2D91EF366D70063F426 /* PXProductDetailInfoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F351EE5496A00BD15F6 /* Studio */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F371EE5496A00BD15F6 /* Model */,
+				5F117F381EE5496A00BD15F6 /* View */,
+				5F117F361EE5496A00BD15F6 /* Controller */,
+			);
+			path = Studio;
+			sourceTree = "<group>";
+		};
+		5F117F361EE5496A00BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F421EE54B2400BD15F6 /* PXStudioMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F371EE5496A00BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F381EE5496A00BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F391EE549EA00BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F3A1EE549EA00BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F3B1EE549EA00BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F3C1EE54A5D00BD15F6 /* PXBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F4C1EE55B3400BD15F6 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F4D1EE55B3400BD15F6 /* Login */,
+				5F117F511EE55B3400BD15F6 /* RealName */,
+				5F117F551EE55B3400BD15F6 /* Register */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		5F117F4D1EE55B3400BD15F6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F4E1EE55B3400BD15F6 /* Controller */,
+				5F117F4F1EE55B3400BD15F6 /* Model */,
+				5F117F501EE55B3400BD15F6 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5F117F4E1EE55B3400BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F591EE55BDA00BD15F6 /* PXLoginViewController.swift */,
+				5F117F711EE7AF6800BD15F6 /* PXForgetPasswordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F4F1EE55B3400BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F501EE55B3400BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F511EE55B3400BD15F6 /* RealName */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F521EE55B3400BD15F6 /* Controller */,
+				5F117F531EE55B3400BD15F6 /* Model */,
+				5F117F541EE55B3400BD15F6 /* View */,
+			);
+			path = RealName;
+			sourceTree = "<group>";
+		};
+		5F117F521EE55B3400BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F751EE93B8100BD15F6 /* PXRealNameViewController.swift */,
+				5F117F771EE93D2A00BD15F6 /* PXRealNameResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F531EE55B3400BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F541EE55B3400BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F551EE55B3400BD15F6 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F561EE55B3400BD15F6 /* Controller */,
+				5F117F571EE55B3400BD15F6 /* Model */,
+				5F117F581EE55B3400BD15F6 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		5F117F561EE55B3400BD15F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F6F1EE7AE4B00BD15F6 /* PXRegisterViewController.swift */,
+				5F117F731EE92B0600BD15F6 /* PXProtocolWebShowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F117F571EE55B3400BD15F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F117F581EE55B3400BD15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F117F5B1EE6372F00BD15F6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F601EE63ED400BD15F6 /* PXLabelAndTextFieldView.swift */,
+				5F3F24431EF7C1660090246E /* PXImageAndLabelButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		5F117F5D1EE63EA000BD15F6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5F117F681EE648AC00BD15F6 /* ThreePartPCH.h */,
+				5F117F5E1EE63EA000BD15F6 /* PXColorManager.swift */,
+				5F117F621EE63F5800BD15F6 /* PXSizeManager.swift */,
+				5F117F641EE6419100BD15F6 /* PXApi.swift */,
+				5F117F6D1EE7A40F00BD15F6 /* CommonMethods.swift */,
+				5F117F691EE64A4300BD15F6 /* FinancialAdviserApp-Bridging-Header.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5FF7571E1EEFB3C400664C4D /* OCFile */ = {
+			isa = PBXGroup;
+			children = (
+				5FF7571F1EEFB3C400664C4D /* Controller */,
+				5FF757201EEFB3C400664C4D /* Model */,
+				5FF757211EEFB3C400664C4D /* View */,
+			);
+			path = OCFile;
+			sourceTree = "<group>";
+		};
+		5FF7571F1EEFB3C400664C4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5FF757201EEFB3C400664C4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FF757211EEFB3C400664C4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FC9D4E81EFA4B47005A5292 /* PXPlayer.h */,
+				5FC9D4E91EFA4B47005A5292 /* PXPlayer.m */,
+				5FC9D4EB1EFA514C005A5292 /* UIView+PXExt.h */,
+				5FC9D4EC1EFA514C005A5292 /* UIView+PXExt.m */,
+				5FC9D4EE1EFA65C3005A5292 /* PXZYPlayer.h */,
+				5FC9D4EF1EFA65C3005A5292 /* PXZYPlayer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A632C60ED585FFF7C87CACDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DAF412C5236F3D584E29D1 /* Pods-FinancialAdviserApp.debug.xcconfig */,
+				3EEFC6BEBBBA0BCF27615CB4 /* Pods-FinancialAdviserApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F117EEE1EE547BC00BD15F6 /* FinancialAdviserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F117F171EE547BC00BD15F6 /* Build configuration list for PBXNativeTarget "FinancialAdviserApp" */;
+			buildPhases = (
+				B7E4AE5A1E961FAA617C4422 /* [CP] Check Pods Manifest.lock */,
+				5F117EEB1EE547BC00BD15F6 /* Sources */,
+				5F117EEC1EE547BC00BD15F6 /* Frameworks */,
+				5F117EED1EE547BC00BD15F6 /* Resources */,
+				B6D86438484F27F8C025358F /* [CP] Embed Pods Frameworks */,
+				76C2D092FE1F671B1A349A31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinancialAdviserApp;
+			productName = FinancialAdviserApp;
+			productReference = 5F117EEF1EE547BC00BD15F6 /* FinancialAdviserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F117F021EE547BC00BD15F6 /* FinancialAdviserAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F117F1A1EE547BC00BD15F6 /* Build configuration list for PBXNativeTarget "FinancialAdviserAppTests" */;
+			buildPhases = (
+				5F117EFF1EE547BC00BD15F6 /* Sources */,
+				5F117F001EE547BC00BD15F6 /* Frameworks */,
+				5F117F011EE547BC00BD15F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F117F051EE547BC00BD15F6 /* PBXTargetDependency */,
+			);
+			name = FinancialAdviserAppTests;
+			productName = FinancialAdviserAppTests;
+			productReference = 5F117F031EE547BC00BD15F6 /* FinancialAdviserAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F117F0D1EE547BC00BD15F6 /* FinancialAdviserAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F117F1D1EE547BC00BD15F6 /* Build configuration list for PBXNativeTarget "FinancialAdviserAppUITests" */;
+			buildPhases = (
+				5F117F0A1EE547BC00BD15F6 /* Sources */,
+				5F117F0B1EE547BC00BD15F6 /* Frameworks */,
+				5F117F0C1EE547BC00BD15F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F117F101EE547BC00BD15F6 /* PBXTargetDependency */,
+			);
+			name = FinancialAdviserAppUITests;
+			productName = FinancialAdviserAppUITests;
+			productReference = 5F117F0E1EE547BC00BD15F6 /* FinancialAdviserAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F117EE71EE547BC00BD15F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PX;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PX;
+				TargetAttributes = {
+					5F117EEE1EE547BC00BD15F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z95K34TV3H;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					5F117F021EE547BC00BD15F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z95K34TV3H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F117EEE1EE547BC00BD15F6;
+					};
+					5F117F0D1EE547BC00BD15F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z95K34TV3H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F117EEE1EE547BC00BD15F6;
+					};
+				};
+			};
+			buildConfigurationList = 5F117EEA1EE547BC00BD15F6 /* Build configuration list for PBXProject "FinancialAdviserApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F117EE61EE547BC00BD15F6;
+			productRefGroup = 5F117EF01EE547BC00BD15F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F117EEE1EE547BC00BD15F6 /* FinancialAdviserApp */,
+				5F117F021EE547BC00BD15F6 /* FinancialAdviserAppTests */,
+				5F117F0D1EE547BC00BD15F6 /* FinancialAdviserAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F117EED1EE547BC00BD15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F117EFD1EE547BC00BD15F6 /* LaunchScreen.storyboard in Resources */,
+				5F117EFA1EE547BC00BD15F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F117F011EE547BC00BD15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F117F0C1EE547BC00BD15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76C2D092FE1F671B1A349A31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinancialAdviserApp/Pods-FinancialAdviserApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D86438484F27F8C025358F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinancialAdviserApp/Pods-FinancialAdviserApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E4AE5A1E961FAA617C4422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F117EEB1EE547BC00BD15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC9D4EA1EFA4B47005A5292 /* PXPlayer.m in Sources */,
+				5FA804B21EF10A3F005F92D0 /* PXProductListTableViewCell.swift in Sources */,
+				5F117F651EE6419100BD15F6 /* PXApi.swift in Sources */,
+				5F117F721EE7AF6800BD15F6 /* PXForgetPasswordViewController.swift in Sources */,
+				5F117F781EE93D2A00BD15F6 /* PXRealNameResultViewController.swift in Sources */,
+				5F117F431EE54B2400BD15F6 /* PXStudioMainViewController.swift in Sources */,
+				5FA804B41EF11659005F92D0 /* PXProductDetailViewController.swift in Sources */,
+				5FCECBC11EEE307D00F6D81B /* PXFoundResourceTableViewCell.swift in Sources */,
+				5F117F6E1EE7A40F00BD15F6 /* CommonMethods.swift in Sources */,
+				5FC9D4E71EF8FBAA005A5292 /* PXCollegeDetailLikeTableViewCell.swift in Sources */,
+				5F3F243F1EF77B730090246E /* PXProductDetailAppointViewController.swift in Sources */,
+				5FC9D4F01EFA65C3005A5292 /* PXZYPlayer.m in Sources */,
+				5F4622801EF22B5700DC85A4 /* PXProductDetailAccountTableViewCell.swift in Sources */,
+				5F117F5F1EE63EA000BD15F6 /* PXColorManager.swift in Sources */,
+				5FC9D4E51EF8C81E005A5292 /* PXCollegeDetailViewController.swift in Sources */,
+				5F117F5A1EE55BDA00BD15F6 /* PXLoginViewController.swift in Sources */,
+				5FA0D2DC1EF375FD0063F426 /* PXPDFTextShowViewController.swift in Sources */,
+				5F117F611EE63ED400BD15F6 /* PXLabelAndTextFieldView.swift in Sources */,
+				5F117F631EE63F5800BD15F6 /* PXSizeManager.swift in Sources */,
+				5FC9D4ED1EFA514C005A5292 /* UIView+PXExt.m in Sources */,
+				5F117F741EE92B0600BD15F6 /* PXProtocolWebShowViewController.swift in Sources */,
+				5FC9D4E31EF8C380005A5292 /* PXCollegeListTableViewCell.swift in Sources */,
+				5F117F451EE54B4800BD15F6 /* PXCustomerMainViewController.swift in Sources */,
+				5F117F471EE54BF000BD15F6 /* PXCollegeMainViewController.swift in Sources */,
+				5F117F761EE93B8100BD15F6 /* PXRealNameViewController.swift in Sources */,
+				5FA0D2DE1EF37E7F0063F426 /* PXMarketCopyViewController.swift in Sources */,
+				5F3F24441EF7C1660090246E /* PXImageAndLabelButton.swift in Sources */,
+				5F117F701EE7AE4C00BD15F6 /* PXRegisterViewController.swift in Sources */,
+				5FA0D2DA1EF366D70063F426 /* PXProductDetailInfoTableViewCell.swift in Sources */,
+				5F117EF31EE547BC00BD15F6 /* AppDelegate.swift in Sources */,
+				5F117F3F1EE54AE700BD15F6 /* PXFoundMainViewController.swift in Sources */,
+				5FF757191EEE40A100664C4D /* PXFoundDetailViewController.swift in Sources */,
+				5F4622821EF2784E00DC85A4 /* PXProductDetailVideoTableViewCell.swift in Sources */,
+				5F117F3D1EE54A5D00BD15F6 /* PXBaseViewController.swift in Sources */,
+				5FCECBBF1EEE306300F6D81B /* PXFoundInfoTableViewCell.swift in Sources */,
+				5F117F411EE54B0600BD15F6 /* PXProductMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F117EFF1EE547BC00BD15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F117F081EE547BC00BD15F6 /* FinancialAdviserAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F117F0A1EE547BC00BD15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F117F131EE547BC00BD15F6 /* FinancialAdviserAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F117F051EE547BC00BD15F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F117EEE1EE547BC00BD15F6 /* FinancialAdviserApp */;
+			targetProxy = 5F117F041EE547BC00BD15F6 /* PBXContainerItemProxy */;
+		};
+		5F117F101EE547BC00BD15F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F117EEE1EE547BC00BD15F6 /* FinancialAdviserApp */;
+			targetProxy = 5F117F0F1EE547BC00BD15F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F117EFB1EE547BC00BD15F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F117EFC1EE547BC00BD15F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F117F151EE547BC00BD15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F117F161EE547BC00BD15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F117F181EE547BC00BD15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DAF412C5236F3D584E29D1 /* Pods-FinancialAdviserApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = Z95K34TV3H;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FinancialAdviserApp/Tool/Custom/Manager/ThreePartPCH.h";
+				INFOPLIST_FILE = FinancialAdviserApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.FinancialAdviserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FinancialAdviserApp/Tool/Custom/Manager/FinancialAdviserApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5F117F191EE547BC00BD15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEFC6BEBBBA0BCF27615CB4 /* Pods-FinancialAdviserApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = Z95K34TV3H;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FinancialAdviserApp/Tool/Custom/Manager/ThreePartPCH.h";
+				INFOPLIST_FILE = FinancialAdviserApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.FinancialAdviserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FinancialAdviserApp/Tool/Custom/Manager/FinancialAdviserApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5F117F1B1EE547BC00BD15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z95K34TV3H;
+				INFOPLIST_FILE = FinancialAdviserAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.FinancialAdviserAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialAdviserApp.app/FinancialAdviserApp";
+			};
+			name = Debug;
+		};
+		5F117F1C1EE547BC00BD15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z95K34TV3H;
+				INFOPLIST_FILE = FinancialAdviserAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.FinancialAdviserAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialAdviserApp.app/FinancialAdviserApp";
+			};
+			name = Release;
+		};
+		5F117F1E1EE547BC00BD15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z95K34TV3H;
+				INFOPLIST_FILE = FinancialAdviserAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.FinancialAdviserAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinancialAdviserApp;
+			};
+			name = Debug;
+		};
+		5F117F1F1EE547BC00BD15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z95K34TV3H;
+				INFOPLIST_FILE = FinancialAdviserAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.FinancialAdviserAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinancialAdviserApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F117EEA1EE547BC00BD15F6 /* Build configuration list for PBXProject "FinancialAdviserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F117F151EE547BC00BD15F6 /* Debug */,
+				5F117F161EE547BC00BD15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F117F171EE547BC00BD15F6 /* Build configuration list for PBXNativeTarget "FinancialAdviserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F117F181EE547BC00BD15F6 /* Debug */,
+				5F117F191EE547BC00BD15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F117F1A1EE547BC00BD15F6 /* Build configuration list for PBXNativeTarget "FinancialAdviserAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F117F1B1EE547BC00BD15F6 /* Debug */,
+				5F117F1C1EE547BC00BD15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F117F1D1EE547BC00BD15F6 /* Build configuration list for PBXNativeTarget "FinancialAdviserAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F117F1E1EE547BC00BD15F6 /* Debug */,
+				5F117F1F1EE547BC00BD15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F117EE71EE547BC00BD15F6 /* Project object */;
+}

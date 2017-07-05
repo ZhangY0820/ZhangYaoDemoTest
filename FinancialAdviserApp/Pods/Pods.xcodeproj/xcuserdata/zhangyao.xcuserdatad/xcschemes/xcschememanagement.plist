@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-FinancialAdviserApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLForm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>12DDE516DA4583B2FC3664EDCBA40812</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>607FE15067465B03122D82F15659372A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60DB4687A57DFB418C1525A00B9F5793</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AAE9D880B54588D26E3332564980357C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7D6AAF46993FA7E07C99B514850EAD4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
